@@ -173,9 +173,22 @@ We can an also change the view depends of the scope:
      - Load Fragment of the speaker with the parameter of the Intent.
   
 
+In next evets....
+
+   - AsyncTasks
+   - Background processes
+   - GeoLocation services and Maps
+
 Bunch of resources
 
-
- 
-      
-  
+Android Arsenal https://android-arsenal.com/
+Best practices of Android development https://github.com/futurice/android-best-practices
+Create graphs in Android http://stackoverflow.com/questions/9741300/charts-for-android
+Material Design icons http://materialdesignicons.com/
+Google I/O 2014 Android app https://github.com/google/iosched
+AsyncTask in Fragments best practices http://www.michenux.net/android-asynctask-in-fragment-best-pratices-725.html
+Android Testing https://speakerdeck.com/f2prateek/android-testing
+Cloud Tools for Android Studio https://cloud.google.com/mobile/
+Android Studio Tips and Tricks http://www.donnfelker.com/android-studio-tips-and-tricks-part-1/
+Java Client for Google Maps Services https://github.com/googlemaps/google-maps-services-java/
+Java design Patterns https://github.com/iluwatar/java-design-patterns
