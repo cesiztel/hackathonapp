@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HackathonApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="says">says</string>
+
+    <string-array name="quotes">
+        <item>Hello World!</item>
+        <item>I love cookies!</item>
+        <item>It is awesome!</item>
+        <item>Bastards!</item>
+        <item>I am Batman!</item>
+    </string-array>
+
+    <string name="title_activity_hackathon_event">HackathonEventActivity</string>
+
+</resources>

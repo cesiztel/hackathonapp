@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- ActionBar styles -->
+    <!-- <style name="AppTheme.MyActionBarStyle"
+        parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        v.1.1 -> app compat version
+    -->
+    <style name="AppTheme.MyActionBarStyle"
+        parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/orange</item>
+        <item name="background">@color/orange</item>
+    </style>
+
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:actionBarStyle"   tools:ignore="NewApi">@style/AppTheme.MyActionBarStyle</item>
+        <item name="actionBarStyle">@style/AppTheme.MyActionBarStyle</item>
+
+    </style>
+
+</resources>
