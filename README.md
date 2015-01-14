@@ -8,6 +8,8 @@ The idea of the presentation is create the "ultra known" Helloo World app and mo
 
 Presentation 
 
+# v.1.0 of the Hackathon app
+
 1. Important concepts to know before to create our Hello World!! first app:
 
   - compiledSdkVersion: is the platform version against which you will compile the app. By default is the last one, this is           convenient to have always the latest features.
@@ -130,7 +132,36 @@ We can an also change the view depends of the scope:
 7. Lifecycle of Android Activities. 
 
    Look at: http://developer.android.com/reference/android/app/Activity.html
+   We implemeted some logs in the different methods of the lifecycle and we debbug the app to see what happend.
    
 8. Abstracting the styles. We want to create our basic theming but we want that our theming flexible to reuse across the app.
 
+   Create our theme customization in style.xml changing the color of the action bar
+   Create a color.xml with main colors of the app
+   We see how is used the dimens.xml out activity_main.xml
+   We see how to translate the strings of the app and how to do it.
+   
+# v.1.1 of the Hackathon app
+
+ 9. In this new version we want -> Now we going to improve the functionality. When we open the app we want to see a list of speakers. When we click in one of the speakers of the list the app will go through another activity and we will see the meesage of the last version (Speaker name) + "says" + randoms string.
+ 
+ 10. Doing in the most simplistic way we:
+      
+      - Rename MainActivity and called -> HackathonTalkActivity that it will show the speaker and the quote.
+      - Create a new Activity called -> HackathonEventActivity that it will contains the list of the Speakers.
+      - How to have the list of speakers load at the beginning and across the app. Singleton pattern to centralize the storage is one possible solution. In this singleton patter we will add an ArrayList of Speakers.
+      - Create an Adapter to load the list
+      - Listener to add the logic of the Controller and call to the next Activity.
+      - How to call to HackathonEventActivity to HackathonTalkActivity and show the correct Speaker? Using Intents and extra parameters to pass data
+      - 
+ The app now do more things and it is able to communicate with other elements. We keep the model - view - controller pattern. But the UI it´s not flexible. The Activities are standalone objects without the possibility to reuse. Moreover, it is very hard to adapt to different screen support. How to increase the flexibility of the UI? More abstractions, using Fragments. 
+
+# v.1.2 of Hackathon app
+
+ 11. Fragments. What is it? and Lifecycle
+ 
+     More info in: http://developer.android.com/guide/components/fragments.html
+  
+ 
+      
   
