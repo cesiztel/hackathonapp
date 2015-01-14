@@ -159,9 +159,23 @@ We can an also change the view depends of the scope:
 # v.1.2 of Hackathon app
 
  11. Fragments. What is it? and Lifecycle
- 
+    
+     Fragments represents a portion of user interface on the activity. You can combine different fragments in the same activity, replace, switch or delete them in runtime. You can thing a fragment as embed peace of behaviour with their own interface. Because is a independent portion of the app, you can reuse whathever you want. 
+
      More info in: http://developer.android.com/guide/components/fragments.html
+     
+ 12. In this last version we integrate fragments in the app, we will do the following modifications:
+     
+     - Create a Abstract activity to add the fragment that we need in each Activity with the same code.
+     - Create a abstract layout same for both Activities that will embed the fragments.
+     - Create a ListFragment for the list of speackers
+     - Create a Fragment for the quote of the speaker
+     - Load Fragment of the speaker with the parameter of the Intent.
   
+
+Bunch of resources
+
+
  
       
   
